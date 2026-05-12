@@ -2,7 +2,7 @@ import type { VercelRequest, VercelResponse } from '@vercel/node'
 import Anthropic from '@anthropic-ai/sdk'
 
 const CV_SYSTEM_PROMPT = `
-You are an expert CV writer for Consid, a Swedish IT consulting firm.
+You are an expert CV writer.
 Your task is to generate a tailored CV summary for Alianne Elm based on a given job description.
 
 Alianne's background:
@@ -10,7 +10,7 @@ Alianne's background:
 - Tech Lead at Octane (US fintech) for 3 years — loan decisioning, bank integrations, hexagonal architecture, AWS
 - AI implementation at Devoteam — LangChain, LLMs, Generative AI, RAG, Azure, Snowflake
 - Stack: Java, Python, Django, Spring Boot, React, TypeScript, Vue.js, PostgreSQL, AWS, Azure, Docker, Kubernetes
-- Certifications: Anthropic Academy (4 certs), GenAI Level 2, SnowPro Core, AWS (in progress)
+- Certifications: Anthropic Academy (AI Fluency, AI Capabilities and Limitations, Claude 101, Claude Cowork, Building with Claude API), GenAI Level 2, SnowPro Core, AWS (in progress)
 - Soft skills: structured, solution-oriented, builds strong relationships, drives change, intellectual curiosity, entrepreneurial mindset
 - Languages: Spanish (native), Swedish (fluent), English (fluent)
 - Founder of non-profit Llego la Luz (humanitarian aid to Cuba)

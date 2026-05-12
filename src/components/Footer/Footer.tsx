@@ -33,21 +33,21 @@ export default function Footer() {
 
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <a
-              href="mailto:alianne.elm@consid.se"
+              href="mailto:alianneelm@yahoo.se"
               className={`${styles.ctaPrimary} inline-flex items-center justify-center gap-3 px-10 py-5 rounded-full font-semibold text-base tracking-wide transition-all duration-300 glow-cyan`}
             >
               <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
                 <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
                 <polyline points="22,6 12,13 2,6"/>
               </svg>
-              alianne.elm@consid.se
+              alianneelm@yahoo.se
             </a>
             <Link
               to="/cv"
               className="inline-flex items-center justify-center gap-2 px-8 py-5 rounded-full font-semibold text-base tracking-wide transition-all duration-300 border border-[#00f5ff]/20 text-[#00f5ff]/70 hover:text-[#00f5ff] hover:border-[#00f5ff]/50 hover:bg-[#00f5ff]/5"
             >
               <FileText size={16} strokeWidth={1.5} />
-              Generera anpassat CV
+              {t('cv.button')}
             </Link>
           </div>
         </motion.div>
@@ -60,7 +60,6 @@ export default function Footer() {
           className="mt-20 pt-8 border-t border-white/5 flex flex-col sm:flex-row justify-between items-center gap-4 text-xs text-white/20"
         >
           <span>© 2026 Alianne Elm</span>
-          <span className="text-gradient-cyan opacity-60">Consid</span>
           <a href="#hero" className="hover:text-white/40 transition-colors">↑ {t('footer.backToTop')}</a>
         </motion.div>
       </div>

@@ -1,4 +1,4 @@
-// CV data — fixed content matching Alianne's Consid CV template
+// CV data — fixed content for Alianne's personal CV
 // The AI tailors the summary; experiences and certs are fixed truths.
 
 export interface Experience {
@@ -110,11 +110,12 @@ export const NONPROFIT: Experience = {
 export const CERTIFICATIONS = [
   'AWS Certified Cloud Practitioner – in progress',
   'SnowPro Core Certification, Snowflake, 12/2025, giltig t.o.m. 12/2027',
-  'AI Level 2 – GenAI Certification, 10/2025',
-  'Human-AI Collaboration – Anthropic Academy',
-  'AI Level 1 – Anthropic Academy',
-  'Claude – Anthropic Academy',
-  'Claude for Teams – Anthropic Academy',
+  'Generativ AI (Level 2) – GenAI, 2025',
+  'AI Fluency: Framework & Foundations – Anthropic Academy, 2026',
+  'AI Capabilities and Limitations – Anthropic Academy, 2026',
+  'Claude 101 Course and Certification – Anthropic Academy, 2026',
+  'Introduction to Claude Cowork – Anthropic, 2026',
+  'Building with the Claude API – Anthropic',
 ]
 
 export const EDUCATION: Education[] = [

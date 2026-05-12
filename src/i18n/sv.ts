@@ -8,10 +8,9 @@ export const sv = {
     contact: 'Kontakt',
   },
   hero: {
-    role: 'Fullstack-utvecklare',
-    tagline: 'Bygger skalbara system.\nLeder teknisk innovation.',
+    role: 'Fullstack-utvecklare · AI-kompetens',
+    tagline: 'Uppgraderingen ditt team behöver.\nFullstack + AI i en och samma profil.',
     cta: 'Se mina kompetenser',
-    available: 'Tillgänglig för uppdrag',
     location: 'Malmö, Sverige',
   },
   about: {
@@ -150,7 +149,7 @@ export const sv = {
     errorMsg: 'Något gick fel. Försök igen om ett ögonblick.',
   },
   footer: {
-    role: 'Fullstack-utvecklare · Consid',
+    role: 'Fullstack-utvecklare · AI-kompetens',
     contact: 'Kontakta mig',
     backToTop: 'Till toppen',
   },

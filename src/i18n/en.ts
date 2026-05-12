@@ -8,10 +8,9 @@ export const en = {
     contact: 'Contact',
   },
   hero: {
-    role: 'Full-Stack Developer',
-    tagline: 'Building scalable systems.\nLeading technical innovation.',
+    role: 'Full-Stack Developer · AI Expertise',
+    tagline: 'The upgrade your team needs.\nFullstack + AI in one profile.',
     cta: 'Explore my skills',
-    available: 'Available for assignments',
     location: 'Malmö, Sweden',
   },
   about: {
@@ -150,7 +149,7 @@ export const en = {
     errorMsg: 'Something went wrong. Please try again in a moment.',
   },
   footer: {
-    role: 'Full-Stack Developer · Consid',
+    role: 'Full-Stack Developer · AI Expertise',
     contact: 'Get in touch',
     backToTop: 'Back to top',
   },

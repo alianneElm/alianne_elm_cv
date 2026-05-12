@@ -63,22 +63,22 @@ export default function CVRequestModal({ open, onClose }: CVRequestModalProps) {
           >
             <div
               className="glass-card rounded-2xl overflow-hidden"
-              style={{ border: '1px solid rgba(122,28,63,0.35)' }}
+              style={{ border: '1px solid rgba(0,245,255,0.2)' }}
             >
               {/* Header */}
               <div
                 className="flex items-center justify-between px-6 py-5 border-b"
-                style={{ borderColor: 'rgba(122,28,63,0.2)' }}
+                style={{ borderColor: 'rgba(0,245,255,0.1)' }}
               >
                 <div className="flex items-center gap-3">
                   <div
                     className="w-8 h-8 rounded-full flex items-center justify-center flex-shrink-0"
                     style={{
-                      background: 'linear-gradient(135deg, rgba(122,28,63,0.3), rgba(160,32,80,0.2))',
-                      border: '1px solid rgba(122,28,63,0.4)',
+                      background: 'linear-gradient(135deg, rgba(0,245,255,0.15), rgba(10,132,255,0.15))',
+                      border: '1px solid rgba(0,245,255,0.3)',
                     }}
                   >
-                    <FileText size={14} style={{ color: '#e0607e' }} />
+                    <FileText size={14} style={{ color: '#00f5ff' }} />
                   </div>
                   <div>
                     <p className="text-sm font-semibold text-white/85">Generera anpassat CV</p>
@@ -109,7 +109,7 @@ export default function CVRequestModal({ open, onClose }: CVRequestModalProps) {
                     fontFamily: 'inherit',
                     fontSize: '14px',
                     color: 'rgba(255,255,255,0.85)',
-                    caretColor: '#e0607e',
+                    caretColor: '#00f5ff',
                   }}
                   onKeyDown={e => {
                     if (e.key === 'Enter' && (e.metaKey || e.ctrlKey)) handleGenerate()
@@ -129,7 +129,7 @@ export default function CVRequestModal({ open, onClose }: CVRequestModalProps) {
                   className="inline-flex items-center gap-2 px-5 py-2.5 rounded-full text-sm font-semibold transition-all duration-200"
                   style={{
                     background: text.trim()
-                      ? 'linear-gradient(135deg, #7A1C3F, #a02050)'
+                      ? 'linear-gradient(135deg, #1e3a5f, #2b5278)'
                       : 'rgba(255,255,255,0.06)',
                     color: text.trim() ? '#fff' : 'rgba(255,255,255,0.25)',
                     cursor: text.trim() ? 'pointer' : 'not-allowed',

@@ -1,7 +1,7 @@
 import { useTranslation } from 'react-i18next'
 import { motion } from 'framer-motion'
 import type { Variants } from 'framer-motion'
-import { MapPin, FileText, Sparkles } from 'lucide-react'
+import { MapPin, FileText } from 'lucide-react'
 import { Link } from 'react-router-dom'
 import HeroChat from '../HeroChat'
 import styles from './Hero.module.css'
@@ -37,19 +37,6 @@ export default function Hero() {
       </div>
 
       <div className="relative z-10 max-w-5xl mx-auto text-center">
-        {/* Available badge */}
-        <motion.div
-          initial={{ opacity: 0, y: 20 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.6, delay: 0.05 }}
-          className="inline-flex items-center gap-2 border-glow-cyan rounded-full px-4 py-1.5 mb-10"
-        >
-          <span className="w-1.5 h-1.5 rounded-full bg-[#00f5ff] animate-pulse" />
-          <span className="text-xs tracking-widest uppercase text-[#00f5ff]/80">
-            {t('hero.available')}
-          </span>
-        </motion.div>
-
         {/* Avatar */}
         <motion.div
           initial={{ opacity: 0, scale: 0.85 }}
@@ -114,29 +101,12 @@ export default function Hero() {
           transition={{ duration: 0.4, delay: 0.58 }}
           className="flex flex-wrap items-center justify-center gap-3 mb-8"
         >
-          {/* Download standard CV */}
-          <a
-            href="/cv.pdf"
-            target="_blank"
-            rel="noopener noreferrer"
+          <Link
+            to="/cv"
             className="inline-flex items-center justify-center gap-2 px-6 py-2.5 rounded-full text-sm tracking-wide text-white/50 hover:text-white hover:bg-white/5 transition-all duration-300 border border-white/10"
           >
             <FileText size={14} strokeWidth={1.5} />
             {t('cv.button')}
-          </a>
-
-          {/* Generate tailored CV */}
-          <Link
-            to="/cv"
-            className="inline-flex items-center justify-center gap-2 px-6 py-2.5 rounded-full text-sm font-medium tracking-wide transition-all duration-300"
-            style={{
-              background: 'linear-gradient(135deg, rgba(122,28,63,0.25), rgba(160,32,80,0.15))',
-              border: '1px solid rgba(122,28,63,0.45)',
-              color: '#e0607e',
-            }}
-          >
-            <Sparkles size={14} strokeWidth={1.5} />
-            Generera CV för uppdrag
           </Link>
         </motion.div>
 
