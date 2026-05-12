@@ -20,9 +20,23 @@ export interface Education {
 
 export const EXPERIENCES: Experience[] = [
   {
+    id: 'consid',
+    company: 'Consid',
+    period: 'mar. 2026 – Pågående',
+    location: 'Malmö',
+    role: 'Systemutvecklare / Fullstack-utvecklare',
+    companyDescription:
+      'Consid är ett av Sveriges snabbast växande IT-konsultbolag med djup kunskap inom IT, kommunikation och design. Bolaget skapar digitala lösningar som bygger värde och stärker kundrelationer.',
+    description: [
+      'I rollen som Systemutvecklare arbetar Alianne med utveckling av skräddarsydda digitala lösningar åt Consids kunder. Hon kombinerar sin breda tekniska kompetens inom Java, Python och moderna JavaScript-ramverk med sin erfarenhet av AI-integration och säkerhetskritiska system för att leverera högkvalitativa och skalbara lösningar.',
+    ],
+    tech:
+      'Java · Python · React.js · TypeScript · Spring Boot · AWS · Docker · Kubernetes · CI/CD · Scrum · Agile',
+  },
+  {
     id: 'devoteam',
     company: 'Devoteam',
-    period: 'okt. 2025 – feb. 2026',
+    period: 'okt. 2025 – mar. 2026',
     location: 'Malmö',
     role: 'Fullstack-utvecklare',
     companyDescription:

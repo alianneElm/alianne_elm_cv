@@ -45,10 +45,17 @@ export const sv = {
     present: 'Nu',
     at: 'på',
     roles: {
+      consid: {
+        company: 'Consid',
+        role: 'Systemutvecklare / Fullstack-utvecklare',
+        period: 'Mar 2026 – Nu',
+        location: 'Malmö',
+        summary: 'Arbetar med utveckling av skräddarsydda digitala lösningar åt Consids kunder. Kombinerar bred teknisk kompetens inom Java, Python och moderna JavaScript-ramverk med erfarenhet av AI-integration och säkerhetskritiska system.',
+      },
       devoteam: {
         company: 'Devoteam',
         role: 'Fullstack-utvecklare',
-        period: 'Okt 2025 – Feb 2026',
+        period: 'Okt 2025 – Mar 2026',
         location: 'Malmö',
         summary: 'Drev ansvarsfull AI-implementering med LangChain, tränade LLM-modeller etiskt och byggde moderna applikationer med Python, React och Next.js i Azures ekosystem. Höjde bolagets kompetensnivå inom generativ AI.',
       },

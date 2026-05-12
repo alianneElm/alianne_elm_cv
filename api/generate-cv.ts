@@ -16,7 +16,7 @@ Alianne's background:
 - Founder of non-profit Llego la Luz (humanitarian aid to Cuba)
 - Studies quantum physics and quantum computing in spare time
 
-Available experience IDs: devoteam, octane, tedsys, gualda, encaprichate
+Available experience IDs: consid, devoteam, octane, tedsys, gualda, encaprichate
 
 Rules:
 - Write in Swedish

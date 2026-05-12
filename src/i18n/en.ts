@@ -45,10 +45,17 @@ export const en = {
     present: 'Present',
     at: 'at',
     roles: {
+      consid: {
+        company: 'Consid',
+        role: 'Systems Developer / Full-Stack Developer',
+        period: 'Mar 2026 – Present',
+        location: 'Malmö',
+        summary: 'Develops tailored digital solutions for Consid\'s clients. Combines broad technical expertise in Java, Python and modern JavaScript frameworks with experience in AI integration and security-critical systems.',
+      },
       devoteam: {
         company: 'Devoteam',
         role: 'Full-Stack Developer',
-        period: 'Oct 2025 – Feb 2026',
+        period: 'Oct 2025 – Mar 2026',
         location: 'Malmö',
         summary: 'Led responsible AI implementation using LangChain, ethically trained LLM models, and built modern applications with Python, React and Next.js on Azure. Elevated company competency in generative AI.',
       },

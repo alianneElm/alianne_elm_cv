@@ -103,7 +103,13 @@ Structured, solution-oriented and skilled at building relationships, with intern
 
 ## WORK EXPERIENCE
 
-### 1. Devoteam - Fullstack Developer (Oct 2025 – Feb 2026 · Malmö)
+### 1. Consid - Systems Developer / Fullstack Developer (Mar 2026 – Present · Malmö)
+Consid is one of Sweden's fastest-growing IT consulting firms with deep expertise in IT, communication and design. The company creates digital solutions that build value and strengthen customer relationships.
+In the role as Systems Developer, Alianne works on developing tailored digital solutions for Consid's clients. She combines her broad technical expertise in Java, Python and modern JavaScript frameworks with her experience in AI integration and security-critical systems to deliver high-quality, scalable solutions.
+
+**Tech:** Java · Python · React.js · TypeScript · Spring Boot · AWS · Docker · Kubernetes · CI/CD · Scrum · Agile
+
+### 2. Devoteam - Fullstack Developer (Oct 2025 – Mar 2026 · Malmö)
 Devoteam is a leading European IT consulting firm specializing in digital transformation and cloud solutions.
 In the role as Fullstack Developer, Alianne took on extensive responsibility spanning both internal product
 development and strategic competency building within future technologies. A central part of the assignment
@@ -121,7 +127,7 @@ start in understanding future computing models.
 
 **Tech:** Python · TypeScript · React.js · Next.js · Node.js · Snowflake · Azure · Azure DevOps · LangChain · LLM · Generative AI · Qiskit · Kubernetes · Docker · GitHub Actions · CI/CD · Jenkins · Argo · Pytest · Scrum
 
-### 2. Hulo Consulting AB / Octane (USA) - Developer → Tech Lead, Fintech (Jun 2022 – Sep 2025 · Malmö)
+### 3. Hulo Consulting AB / Octane (USA) - Developer → Tech Lead, Fintech (Jun 2022 – Sep 2025 · Malmö)
 Octane is a fast-growing US fintech company transforming the buying process with innovative digital loan
 solutions and advanced bank integrations. The company handles highly sensitive financial data and acts as
 an intermediary between dealers, consumers and large financial institutions - requiring the highest level
@@ -147,7 +153,7 @@ She shortened partner onboarding time through clear technical guidelines and tai
 
 **Tech:** Python · Django · Java · Spring Boot · Spring Web · Spring Security · React.js · React Redux · TypeScript · JavaScript · PostgreSQL · AWS · AWS Lambda · Hexagonal Architecture · Kubernetes · Docker · Terraform · Cypress · Playwright · DataDog · OpsGenie · Jenkins · Argo · GitHub Actions · CI/CD · Scrum · Agile
 
-### 3. Tedsys / Lagerkoll - Fullstack Developer (Sep 2020 – May 2022 · Malmö)
+### 4. Tedsys / Lagerkoll - Fullstack Developer (Sep 2020 – May 2022 · Malmö)
 Tedsys is an IT consulting firm specializing in tailored software solutions for logistics and warehouse
 management systems. Alianne worked with new development and modernization of warehouse management systems.
 Her primary responsibility was a critical migration of the system's data communication from XML to
@@ -156,7 +162,7 @@ entire Java stack - from database, backend logic, integrations, to frontend.
 
 **Tech:** Java · Spring Boot · Spring MVC · Spring Security · Hibernate/JPA · Maven · JUnit · Mockito · SQL · MySQL · PostgreSQL · JavaScript/JSON · XML · API Design · jQuery · HTML · CSS · Docker · Scrum
 
-### 4. Gualda Comunicaciones - Developer (Jan 2018 – Jul 2020 · Logroño, Spain)
+### 5. Gualda Comunicaciones - Developer (Jan 2018 – Jul 2020 · Logroño, Spain)
 Spanish telecommunications company providing digital services and communication solutions.
 Alianne was responsible for designing and developing the company's website with the goal of improving
 customer experience and driving digital sales. She combined technical development in a Java environment
@@ -165,7 +171,7 @@ customer loyalty.
 
 **Tech:** Java · JavaScript · Vue.js · jQuery · Express.js · HTML · CSS
 
-### 5. Encaprichate - Founder & Developer (Jan 2016 – Jan 2018 · Spain)
+### 6. Encaprichate - Founder & Developer (Jan 2016 – Jan 2018 · Spain)
 Self-started delicatessen shop in Spain combining physical retail with a digital presence.
 As founder, Alianne was responsible for the entire operation including business planning, accounting
 and supplier relations. She also took her first steps as a developer by personally designing and building
