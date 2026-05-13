@@ -91,7 +91,7 @@ export default function CVGeneratorPage() {
         .cvgen-topbar {
           background: #fff;
           border-bottom: 1px solid #e0e0e0;
-          padding: 14px 24px;
+          padding: 20px 32px;
           display: flex;
           align-items: center;
           justify-content: space-between;
@@ -113,19 +113,19 @@ export default function CVGeneratorPage() {
           gap: 6px;
           color: #555;
           text-decoration: none;
-          font-size: 13px;
+          font-size: 14px;
           white-space: nowrap;
           flex-shrink: 0;
         }
         .cvgen-topbar-title {
-          font-size: 14px;
+          font-size: 16px;
           font-weight: 700;
           color: ${ACCENT};
           letter-spacing: 1px;
         }
         .cvgen-topbar-subtitle {
           color: #bbb;
-          font-size: 13px;
+          font-size: 14px;
           white-space: nowrap;
           overflow: hidden;
           text-overflow: ellipsis;
@@ -136,8 +136,8 @@ export default function CVGeneratorPage() {
           gap: 8px;
           border: none;
           border-radius: 8px;
-          padding: 9px 18px;
-          font-size: 13px;
+          padding: 11px 22px;
+          font-size: 14px;
           font-weight: 600;
           cursor: pointer;
           transition: background 0.2s;
@@ -146,17 +146,17 @@ export default function CVGeneratorPage() {
         }
         .cvgen-layout {
           display: flex;
-          min-height: calc(100vh - 57px);
+          min-height: calc(100vh - 68px);
         }
         .cvgen-sidebar {
-          width: 360px;
-          min-width: 360px;
+          width: 420px;
+          min-width: 420px;
           background: #fff;
           border-right: 1px solid #e0e0e0;
-          padding: 28px 24px;
+          padding: 36px 32px;
           display: flex;
           flex-direction: column;
-          gap: 20px;
+          gap: 24px;
         }
         .cvgen-preview {
           flex: 1;
@@ -180,8 +180,8 @@ export default function CVGeneratorPage() {
           box-sizing: border-box;
         }
         .cvgen-doc-wrapper {
-          transform-origin: top center;
           width: 794px;
+          zoom: 1.5;
         }
         .cvgen-mobile-success {
           display: none;
@@ -198,10 +198,10 @@ export default function CVGeneratorPage() {
         }
         .cvgen-input {
           width: 100%;
-          padding: 9px 11px;
+          padding: 11px 14px;
           border: 1px solid #ddd;
           border-radius: 8px;
-          font-size: 12px;
+          font-size: 14px;
           color: #333;
           outline: none;
           box-sizing: border-box;
@@ -210,10 +210,10 @@ export default function CVGeneratorPage() {
         .cvgen-input:focus { border-color: ${ACCENT}; }
         .cvgen-textarea {
           width: 100%;
-          padding: 12px;
+          padding: 14px;
           border: 1px solid #ddd;
           border-radius: 8px;
-          font-size: 12px;
+          font-size: 14px;
           line-height: 1.6;
           color: #333;
           resize: vertical;
@@ -228,9 +228,9 @@ export default function CVGeneratorPage() {
           justify-content: center;
           gap: 8px;
           border: none;
-          border-radius: 8px;
-          padding: 12px;
-          font-size: 13px;
+          border-radius: 10px;
+          padding: 14px;
+          font-size: 15px;
           font-weight: 600;
           transition: background 0.2s;
           width: 100%;
@@ -239,15 +239,15 @@ export default function CVGeneratorPage() {
           background: #f0f7f0;
           border: 1px solid #b8ddb8;
           border-radius: 8px;
-          padding: 12px;
-          font-size: 12px;
+          padding: 14px;
+          font-size: 14px;
           color: #2d6a2d;
           line-height: 1.5;
         }
         .cvgen-disclaimer {
           border-top: 1px solid #f0f0f0;
           padding-top: 16px;
-          font-size: 11px;
+          font-size: 13px;
           color: #aaa;
           margin: 0;
           line-height: 1.6;
@@ -324,16 +324,16 @@ export default function CVGeneratorPage() {
         {/* Sidebar / form */}
         <div className="cvgen-sidebar">
           <div>
-            <h2 style={{ fontSize: '16px', fontWeight: 700, color: '#1a1a1a', margin: '0 0 6px 0' }}>
+            <h2 style={{ fontSize: '20px', fontWeight: 700, color: '#1a1a1a', margin: '0 0 8px 0' }}>
               Generera anpassat CV
             </h2>
-            <p style={{ fontSize: '12px', color: '#888', margin: 0, lineHeight: 1.6 }}>
+            <p style={{ fontSize: '14px', color: '#888', margin: 0, lineHeight: 1.6 }}>
               Beskriv rollen du söker så anpassar AI:n sammanfattningen och lyfter fram rätt erfarenheter.
             </p>
           </div>
 
           <div>
-            <label style={{ fontSize: '12px', fontWeight: 600, color: '#444', display: 'block', marginBottom: '8px' }}>
+            <label style={{ fontSize: '14px', fontWeight: 600, color: '#444', display: 'block', marginBottom: '8px' }}>
               Beskriv rollen
             </label>
             <textarea
@@ -347,10 +347,10 @@ export default function CVGeneratorPage() {
             />
           </div>
 
-          <p style={{ fontSize: '11px', color: '#bbb', margin: '-12px 0 0 0' }}>Cmd + Enter för att generera</p>
+          <p style={{ fontSize: '13px', color: '#bbb', margin: '-12px 0 0 0' }}>Cmd + Enter för att generera</p>
 
           {error && (
-            <p style={{ fontSize: '12px', color: '#c0392b', margin: 0 }}>{error}</p>
+            <p style={{ fontSize: '14px', color: '#c0392b', margin: 0 }}>{error}</p>
           )}
 
           <button

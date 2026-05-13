@@ -74,7 +74,7 @@ function PageHeader() {
         Alianne Elm
       </span>
       <span style={{ fontFamily: FONT_SANS, fontSize: '8.5px', color: '#999', letterSpacing: '0.3px' }}>
-        alianneelm@yahoo.se
+        +46 76 254 71 79 · alianneelm@yahoo.se
       </span>
     </div>
   )
@@ -159,6 +159,7 @@ function CoverPage({ summary, roleTitle, competencies, editMode }: {
               Kontakt
             </p>
             <p style={{ fontFamily: FONT_SANS, fontSize: '8px', color: 'rgba(255,255,255,0.75)', margin: '0 0 3px 0' }}>Malmö, Sverige</p>
+            <p style={{ fontFamily: FONT_SANS, fontSize: '8px', color: 'rgba(255,255,255,0.75)', margin: '0 0 3px 0' }}>+46 76 254 71 79</p>
             <p style={{ fontFamily: FONT_SANS, fontSize: '8px', color: 'rgba(255,255,255,0.75)', margin: '0 0 3px 0' }}>alianneelm@yahoo.se</p>
           </div>
 
