@@ -82,7 +82,7 @@ export default function About() {
               className="glass-card border-glow-cyan rounded-2xl p-6 flex items-center justify-between"
             >
               <div>
-                <p className="text-[clamp(2rem,6vw,3.5rem)] font-bold text-gradient-cyan leading-none">7+</p>
+                <p className="text-[clamp(2rem,6vw,3.5rem)] font-bold text-gradient-cyan leading-none">8+</p>
                 <p className="text-sm text-white/40 mt-1">{isSv ? 'års erfarenhet' : 'years of experience'}</p>
               </div>
               <div className="text-center">

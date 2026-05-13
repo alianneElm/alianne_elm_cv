@@ -31,7 +31,7 @@ export const EXPERIENCES: Experience[] = [
       'I rollen som Systemutvecklare arbetar Alianne med utveckling av skräddarsydda digitala lösningar åt Consids kunder. Hon kombinerar sin breda tekniska kompetens inom Java, Python och moderna JavaScript-ramverk med sin erfarenhet av AI-integration och säkerhetskritiska system för att leverera högkvalitativa och skalbara lösningar.',
     ],
     tech:
-      'Java · Python · React.js · TypeScript · Spring Boot · AWS · Docker · Kubernetes · CI/CD · Scrum · Agile',
+      'Java · JavaScript · Python · React.js · TypeScript · Spring Boot · PostgreSQL · AWS · Docker · Kubernetes · CI/CD · Scrum · Agile · AI Fluency · Constitutional AI · AI Safety · Human-AI Collaboration · Claude · Copilot · Cursor · AI Integration · Large Language Models · Generativ AI · Claude API',
   },
   {
     id: 'devoteam',
@@ -47,7 +47,7 @@ export const EXPERIENCES: Experience[] = [
       'Alianne höjde framgångsrikt teamets interna kompetensnivå inom generativ AI genom att etablera strukturerade ramverk för etisk modellträning. Genom sitt arbete med Snowflake och Azure DevOps optimerade hon datahantering och utvecklingsflöden. Hennes integration av kvantberäkningsprinciper i tekniska diskussioner gav teamet ett betydande försprång i förståelsen för framtida beräkningsmodeller.',
     ],
     tech:
-      'Python · TypeScript · React.js · Next.js · Node.js · Snowflake · Microsoft Azure · Azure DevOps · LangChain · LLM · Generativ AI · AI Ethics · Qiskit · Kubernetes · Docker · GitHub Actions · CI/CD · Jenkins · Argo · PyTest · JIRA · Scrum · Agile',
+      'Affärssystem · JavaScript · Agile · Jenkins · JSON · REST · Cloud · CI/CD · Azure · Node.js · Unit testing · GitHub · Docker · Application management · Integration solutions · Requirement Management · TypeScript · Datahantering · Automated processes · Postman · Fullstack · AI · Kubernetes · Cloud Architecture · PostgreSQL · PyTest · E2E-testing · Python · React.js · Azure DevOps · Snowflake · Next.js · GitHub Actions · Scrum · Large Language Models · API-design · Generativ AI',
   },
   {
     id: 'octane',
@@ -63,7 +63,7 @@ export const EXPERIENCES: Experience[] = [
       'I rollen som Tech Lead för Partner-plattformen agerade Alianne direktkontakt mot externa partners, ledde den tekniska onboardingen och förkortade integrationstiden genom tydliga riktlinjer och väldesignade API-lösningar — med bibehållen hög säkerhetsstandard och dataintegritet.',
     ],
     tech:
-      'Python · Django · Java · Spring Boot · Spring Web · Spring Security · React.js · React Redux · TypeScript · JavaScript · PostgreSQL · AWS · AWS Lambda · Hexagonal Architecture · Kubernetes · Docker · Terraform · Cypress · Playwright · DataDog · OpsGenie · Jenkins · Argo · GitHub Actions · CI/CD · JIRA · Scrum · Agile',
+      'JavaScript · Agile · Frontend · Säkerhet · SQL · Java · Jenkins · jQuery · JSON · Migration · Knockout · AWS · CI/CD · Spring Security · Django · Unit testing · GitHub · Docker · TypeScript · API · Spring Boot · Postman · Backend · Datadog · Hantering av intressenter · Fullstack · AWS Lambda · Riskbedömning · Kubernetes · PostgreSQL · FinTech · E2E-testing · Python · Terraform · React.js · Banktjänster · Technical Leadership · Opsgenie · Cypress · Banking · GitHub Actions · Dataintegritet · React Redux · Playwright · Scrum · Systemmigrering · Skalbarhet · API Design and Implementation',
   },
   {
     id: 'tedsys',
@@ -78,7 +78,7 @@ export const EXPERIENCES: Experience[] = [
       'Migreringen från XML till JavaScript resulterade i ett snabbare och mer skalbart system med förbättrad prestanda i databashanteringen. Genom att modernisera API-strukturen och optimera affärslogiken i Java bidrog Alianne till att underlätta framtida underhåll och förbättra slutanvändarnas operativa effektivitet i lagerprocesserna.',
     ],
     tech:
-      'Java · Spring Boot · Spring MVC · Spring Security · Hibernate/JPA · Maven · JUnit · Mockito · SQL · MySQL · PostgreSQL · JavaScript/JSON · XML · API Design · jQuery · HTML · CSS · Docker · Scrum',
+      'Logistik · Databases · MySQL · HTML · JavaScript · Hibernate · Spring MVC · Agile · Frontend · JUnit · SQL · Java · CSS · Mockito · jQuery · JSON · JPA · Spring Security · IntelliJ IDEA · GitHub · Docker · Underhåll · Trello · Systemarkitektur · Maven · API · Spring Boot · Backend · Digitalisering · Fullstack · PostgreSQL · Lagerhanteringssystem · XML · Scrum · API Design and Implementation',
   },
   {
     id: 'gualda',
@@ -91,7 +91,7 @@ export const EXPERIENCES: Experience[] = [
     description: [
       'Alianne ansvarade för design och utveckling av företagets webbplats med fokus på att förbättra kundupplevelsen och driva den digitala försäljningen. I rollen kombinerade hon teknisk utveckling i Java-miljö med strategisk kundbearbetning, vilket resulterade i ökad digital försäljning och stärkt kundlojalitet.',
     ],
-    tech: 'Java · JavaScript · Vue.js · jQuery · Express.js · HTML · CSS',
+    tech: 'HTML · JavaScript · Java · CSS · jQuery · Express.js · Vue.js · Kundrelationer',
   },
   {
     id: 'encaprichate',
@@ -104,7 +104,7 @@ export const EXPERIENCES: Experience[] = [
     description: [
       'Som grundare ansvarade Alianne för hela verksamheten, inklusive affärsplanering, bokföring och leverantörsrelationer. Hon tog även sina första steg som utvecklare genom att själv designa och bygga butikens webbplats från grunden, vilket etablerade butikens första digitala plattform och lade grunden för hennes fortsatta karriär inom systemutveckling.',
     ],
-    tech: 'HTML · CSS · JavaScript · Business Strategy · Entrepreneurship',
+    tech: 'HTML · JavaScript · CSS · Affärsplanering · Handel · Bokföring · Entrepreneurship',
   },
 ]
 
@@ -144,8 +144,48 @@ export const LANGUAGES = [
   { lang: 'Engelska', level: 'Flytande' },
 ]
 
+export interface CompetencyGroup {
+  category: string
+  items: string[]
+}
+
+export const COMPETENCY_REGISTER: CompetencyGroup[] = [
+  {
+    category: 'Programmeringsspråk',
+    items: ['Java', 'JavaScript', 'Python', 'TypeScript', 'SQL', 'HTML', 'CSS', 'XML'],
+  },
+  {
+    category: 'Ramverk & Bibliotek',
+    items: ['Spring Boot', 'Spring Security', 'Spring MVC', 'Django', 'React.js', 'React Redux', 'Vue.js', 'Next.js', 'Node.js', 'Express.js', 'jQuery', 'Knockout', 'Hibernate', 'JPA', 'JSON', 'REST', 'OAuth2', 'SAML', 'Webhooks'],
+  },
+  {
+    category: 'Cloud & Databaser',
+    items: ['AWS', 'AWS Lambda', 'Azure', 'Azure DevOps', 'Cloud Architecture', 'PostgreSQL', 'MySQL', 'Snowflake', 'Apache Kafka'],
+  },
+  {
+    category: 'DevOps & Verktyg',
+    items: ['Docker', 'Kubernetes', 'GitHub', 'GitHub Actions', 'Jenkins', 'Terraform', 'CI/CD', 'Maven', 'Postman', 'IntelliJ IDEA', 'Datadog', 'Opsgenie', 'Trello', 'JIRA'],
+  },
+  {
+    category: 'Testning',
+    items: ['Unit testing', 'E2E-testing', 'Integrationstest', 'Cypress', 'Playwright', 'JUnit', 'Mockito', 'PyTest'],
+  },
+  {
+    category: 'AI & Emerging Tech',
+    items: ['AI', 'Generativ AI', 'Large Language Models', 'Claude', 'Claude API', 'Copilot', 'Cursor', 'AI Integration', 'AI Fluency', 'Constitutional AI', 'AI Safety', 'Human-AI Collaboration'],
+  },
+  {
+    category: 'Arkitektur & Metoder',
+    items: ['Agile', 'Scrum', 'Technical Leadership', 'Systemarkitektur', 'API Design and Implementation', 'API-design', 'Systemmigrering', 'Migration', 'Skalbarhet', 'Event-driven Architecture', 'Asynchronous messaging', 'Automated processes', 'Requirement Management', 'Programledning', 'DevOps'],
+  },
+  {
+    category: 'Verksamhet & Branscher',
+    items: ['FinTech', 'Banking', 'Banktjänster', 'Säkerhet', 'Logistik', 'Handel', 'Dataintegritet', 'Riskbedömning', 'Hantering av intressenter', 'Kundrelationer', 'Underhåll', 'Digitalisering', 'Application management', 'Datahantering', 'Ledarskap', 'Entrepreneurship', 'Verksamhetsutveckling', 'Affärsplanering'],
+  },
+]
+
 export const DEFAULT_SUMMARY = {
-  professional: `Alianne är en driven Fullstack-utvecklare med över sju års erfarenhet av att designa, utveckla och underhålla skalbara och säkerhetskritiska system. Med en gedigen bakgrund inom fintech har hon haft nyckelroller i affärskritiska projekt där säkerhet och integritet varit högsta prioritet. Hon kombinerar teknisk expertis inom Java, Python och moderna JavaScript-ramverk med en stark förmåga att tillämpa från arkitektur till konkret affärsnytta.`,
+  professional: `Alianne är en driven Fullstack-utvecklare med 8 års erfarenhet av att designa, utveckla och underhålla skalbara och säkerhetskritiska system. Med en gedigen bakgrund inom fintech har hon haft nyckelroller i affärskritiska projekt där säkerhet och integritet varit högsta prioritet. Hon kombinerar teknisk expertis inom Java, Python och moderna JavaScript-ramverk med en stark förmåga att tillämpa från arkitektur till konkret affärsnytta.`,
   personal: `Som person är Alianne strukturerad, lösningsorienterad och skicklig på att bygga relationer med internationell erfarenhet och en dokumenterad förmåga att driva förändring. Hon bidrar med stark arbetsmoral, djup teknisk kompetens och ett tydligt engagemang för kvalitet och innovation.`,
   bonus: `Ett av Aliannes främsta kännetecken är hennes stora intresse för att ständigt lära sig nya saker. På sin fritid fördjupar hon sig i komplexa ämnen som kvantfysik och Quantum Computing, vilket speglar hennes intellektuella nyfikenhet och passion för framtidens teknik. Utöver tekniken brinner hon för samhällsengagemang och driver en ideell organisation för humanitärt bistånd.`,
 }

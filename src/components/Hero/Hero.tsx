@@ -103,7 +103,7 @@ export default function Hero() {
         >
           <Link
             to="/cv"
-            className="inline-flex items-center justify-center gap-2 px-6 py-2.5 rounded-full text-sm tracking-wide text-white/50 hover:text-white hover:bg-white/5 transition-all duration-300 border border-white/10"
+            className="inline-flex items-center justify-center gap-2 px-7 py-3 rounded-full text-sm font-semibold tracking-wide text-white bg-gradient-to-r from-[#00f5ff]/20 to-[#a855f7]/20 hover:from-[#00f5ff]/35 hover:to-[#a855f7]/35 transition-all duration-300 border border-[#00f5ff]/40 shadow-[0_0_20px_rgba(0,245,255,0.15)]"
           >
             <FileText size={14} strokeWidth={1.5} />
             {t('cv.button')}

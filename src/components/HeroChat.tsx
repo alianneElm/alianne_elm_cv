@@ -230,32 +230,49 @@ export default function HeroChat() {
       initial={{ opacity: 0, y: 24 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.7, delay: 0.65, ease: [0.16, 1, 0.3, 1] }}
-      className="w-full max-w-3xl mx-auto"
+      className="w-full max-w-4xl mx-auto"
     >
       <div
-        className="glass-card rounded-2xl overflow-hidden"
-        style={{ border: '1px solid rgba(0,245,255,0.15)' }}
+        className="rounded-2xl overflow-hidden relative"
+        style={{
+          background: 'linear-gradient(165deg, rgba(0,245,255,0.06) 0%, rgba(10,10,20,0.95) 30%, rgba(191,90,242,0.04) 100%)',
+          border: '1px solid rgba(0,245,255,0.25)',
+          boxShadow: '0 0 40px rgba(0,245,255,0.1), 0 0 80px rgba(191,90,242,0.06), inset 0 1px 0 rgba(255,255,255,0.05)',
+          backdropFilter: 'blur(20px)',
+        }}
       >
+        {/* Top gradient accent line */}
+        <div style={{
+          position: 'absolute', top: 0, left: 0, right: 0, height: '2px',
+          background: 'linear-gradient(90deg, transparent, #00f5ff, #a855f7, transparent)',
+          opacity: 0.6,
+        }} />
+
         {/* Header */}
         <div
           className="px-5 py-4 flex items-center gap-3 border-b"
-          style={{ borderColor: 'rgba(0,245,255,0.08)' }}
+          style={{
+            borderColor: 'rgba(0,245,255,0.1)',
+            background: 'linear-gradient(90deg, rgba(0,245,255,0.04), transparent, rgba(191,90,242,0.03))',
+          }}
         >
           <div className="relative flex-shrink-0">
             <div
-              className="w-8 h-8 rounded-full flex items-center justify-center text-xs font-bold"
+              className="w-9 h-9 rounded-full flex items-center justify-center text-xs font-bold"
               style={{
-                background: 'linear-gradient(135deg, rgba(0,245,255,0.15), rgba(191,90,242,0.15))',
-                border: '1px solid rgba(0,245,255,0.3)',
+                background: 'linear-gradient(135deg, rgba(0,245,255,0.2), rgba(191,90,242,0.2))',
+                border: '1px solid rgba(0,245,255,0.4)',
+                boxShadow: '0 0 12px rgba(0,245,255,0.15)',
+                color: '#00f5ff',
               }}
             >
               AI
             </div>
-            <span className="absolute -bottom-0.5 -right-0.5 w-2.5 h-2.5 rounded-full bg-[#30d158] border border-[#050508]" />
+            <span className="absolute -bottom-0.5 -right-0.5 w-2.5 h-2.5 rounded-full bg-[#30d158] border-2 border-[#0a0a14]" style={{ boxShadow: '0 0 6px rgba(48,209,88,0.4)' }} />
           </div>
           <div>
-            <p className="text-sm font-semibold text-white/80">{t('chat.title')}</p>
-            <p className="text-xs text-white/35">{t('chat.subtitle')}</p>
+            <p className="text-sm font-semibold text-white/90">{t('chat.title')}</p>
+            <p className="text-xs text-[#00f5ff]/50">{t('chat.subtitle')}</p>
           </div>
         </div>
 
@@ -350,7 +367,7 @@ export default function HeroChat() {
         {/* Input */}
         <div
           className="px-4 py-3 flex items-center gap-3 border-t"
-          style={{ borderColor: 'rgba(0,245,255,0.08)' }}
+          style={{ borderColor: 'rgba(0,245,255,0.12)' }}
         >
           <input
             ref={inputRef}
@@ -359,19 +376,20 @@ export default function HeroChat() {
             onKeyDown={onKeyDown}
             placeholder={t('chat.placeholder')}
             disabled={loading}
-            className="flex-1 bg-transparent text-base text-white/80 placeholder-white/30 outline-none"
+            className="flex-1 text-base text-white/80 placeholder-white/40 outline-none rounded-lg px-4 py-2.5"
+            style={{ background: 'rgba(255,255,255,0.06)', border: '1px solid rgba(255,255,255,0.1)' }}
           />
           <button
             onClick={send}
             disabled={loading || !input.trim()}
-            className="w-8 h-8 rounded-full flex items-center justify-center flex-shrink-0 transition-all duration-200 disabled:opacity-30"
+            className="w-10 h-10 rounded-full flex items-center justify-center flex-shrink-0 transition-all duration-300 disabled:opacity-50"
             style={{
-              background: input.trim() && !loading
-                ? 'linear-gradient(135deg, #00f5ff, #0a84ff)'
-                : 'rgba(255,255,255,0.06)',
+              background: 'linear-gradient(135deg, #00f5ff, #a855f7)',
+              border: '1px solid rgba(0,245,255,0.5)',
+              boxShadow: '0 0 14px rgba(0,245,255,0.25), 0 0 28px rgba(168,85,247,0.12)',
             }}
           >
-            <Send size={14} strokeWidth={2} style={{ color: input.trim() && !loading ? '#050508' : 'rgba(255,255,255,0.4)' }} />
+            <Send size={16} strokeWidth={2} style={{ color: '#050508' }} />
           </button>
         </div>
       </div>

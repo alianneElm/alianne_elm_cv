@@ -1,5 +1,5 @@
 import type { Experience, Education } from '../../lib/cvData'
-import { EXPERIENCES, NONPROFIT, CERTIFICATIONS, EDUCATION, LANGUAGES } from '../../lib/cvData'
+import { EXPERIENCES, NONPROFIT, CERTIFICATIONS, EDUCATION, LANGUAGES, COMPETENCY_REGISTER } from '../../lib/cvData'
 
 const NAVY = '#2b4c7e'
 const NAVY_DARK = '#3d6098'
@@ -369,6 +369,40 @@ function CertsSection({ editMode }: { editMode?: boolean }) {
   )
 }
 
+function CompetenciesSection() {
+  return (
+    <PrintableSection title="Kompetensregister" breakBefore>
+      {COMPETENCY_REGISTER.map((group, gi) => (
+        <div key={gi} style={{ marginBottom: '16px', pageBreakInside: 'avoid', breakInside: 'avoid' }}>
+          <p style={{
+            fontFamily: FONT_SANS, fontSize: '9.5px', fontWeight: 700, color: NAVY,
+            margin: '0 0 6px 0', textTransform: 'uppercase', letterSpacing: '0.5px',
+          }}>
+            {group.category}
+          </p>
+          <div style={{ display: 'flex', flexWrap: 'wrap', gap: '4px' }}>
+            {group.items.map((item, i) => (
+              <span key={i} style={{
+                display: 'inline-block',
+                background: '#f0f4f8',
+                borderRadius: '10px',
+                padding: '3.5px 10px',
+                fontSize: '7.5px',
+                color: '#333',
+                fontFamily: FONT_SANS,
+                fontWeight: 500,
+                lineHeight: 1.4,
+              }}>
+                {item}
+              </span>
+            ))}
+          </div>
+        </div>
+      ))}
+    </PrintableSection>
+  )
+}
+
 export default function CVDocument({
   summary, roleTitle, highlightedExperiences, experienceHighlights,
   competencies, editMode,
@@ -399,6 +433,7 @@ export default function CVDocument({
         <CoverPage summary={summary} roleTitle={roleTitle} competencies={competencies} editMode={editMode} />
         <ExperienceSection experiences={ordered} experienceHighlights={experienceHighlights} editMode={editMode} />
         <CertsSection editMode={editMode} />
+        <CompetenciesSection />
       </div>
     </>
   )

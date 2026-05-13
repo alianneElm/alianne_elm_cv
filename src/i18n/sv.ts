@@ -41,7 +41,7 @@ export const sv = {
   },
   experience: {
     title: 'Erfarenhet',
-    subtitle: 'Sju år av uppdrag i teknikens framkant',
+    subtitle: 'Åtta år av uppdrag i teknikens framkant',
     present: 'Nu',
     at: 'på',
     roles: {

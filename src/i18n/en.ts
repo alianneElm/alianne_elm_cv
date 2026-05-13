@@ -41,7 +41,7 @@ export const en = {
   },
   experience: {
     title: 'Experience',
-    subtitle: 'Seven years of assignments at the forefront of technology',
+    subtitle: 'Eight years of assignments at the forefront of technology',
     present: 'Present',
     at: 'at',
     roles: {
