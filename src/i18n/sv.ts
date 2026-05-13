@@ -151,7 +151,7 @@ export const sv = {
   chat: {
     title: 'Aliannes AI-assistent',
     subtitle: 'Fråga mig om hennes profil',
-    intro: 'Hej! Jag är Aliannes AI-assistent. Berätta vad du letar efter – en backend-utvecklare, en tech lead, någon med AI-erfarenhet? Jag hjälper dig avgöra om Alianne är rätt profil.',
+    intro: 'Hej! Jag är Aliannes AI-assistent. Jag hjälper dig avgöra om Alianne är rätt profil.',
     placeholder: 'Ställ en fråga om Aliannes kompetenser…',
     errorMsg: 'Något gick fel. Försök igen om ett ögonblick.',
   },
