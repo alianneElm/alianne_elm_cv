@@ -123,6 +123,8 @@ export default function Hero() {
             className="w-px h-12 bg-gradient-to-b from-[#00f5ff]/40 to-transparent mx-auto"
           />
         </motion.div>
+
+        {/* Contacts CTA */}
         <div className="mt-12 flex flex-col sm:flex-row items-center justify-center gap-12">
           <a
               href="mailto:alianneelm@yahoo.se"
