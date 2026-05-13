@@ -8,7 +8,7 @@ export const en = {
     contact: 'Contact',
   },
   hero: {
-    role: 'Full-Stack Developer · AI Expertise',
+    role: 'Full-Stack Developer · Fintech · AI Expertise',
     tagline: 'The upgrade your team needs.\nFullstack + AI in one profile.',
     cta: 'Explore my skills',
     location: 'Malmö, Sweden',

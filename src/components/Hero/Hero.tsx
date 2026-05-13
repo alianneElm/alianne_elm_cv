@@ -77,11 +77,7 @@ export default function Hero() {
           <p className="text-lg md:text-xl text-white/40 tracking-widest uppercase">
             {t('hero.role')}
           </p>
-          <span className="hidden sm:block text-white/20">·</span>
-          <span className="flex items-center gap-1.5 text-sm text-white/30">
-            <MapPin size={13} strokeWidth={1.5} />
-            {t('hero.location')}
-          </span>
+          <span className="hidden sm:block text-white/20">·</span> 
         </motion.div>
 
         {/* Tagline */}
@@ -127,7 +123,7 @@ export default function Hero() {
             className="w-px h-12 bg-gradient-to-b from-[#00f5ff]/40 to-transparent mx-auto"
           />
         </motion.div>
-        <div className="mt-12 flex flex-col sm:flex-row items-center justify-center gap-4">
+        <div className="mt-12 flex flex-col sm:flex-row items-center justify-center gap-12">
           <a
               href="mailto:alianneelm@yahoo.se"
               className={`${styles.ctaPrimary} inline-flex items-center justify-center gap-2 px-7 py-3 rounded-full text-sm font-semibold tracking-wide text-white bg-gradient-to-r from-[#00f5ff]/20 to-[#a855f7]/20 hover:from-[#00f5ff]/35 hover:to-[#a855f7]/35 transition-all duration-300 border border-[#00f5ff]/40 shadow-[0_0_20px_rgba(0,245,255,0.15)]`}

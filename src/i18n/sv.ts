@@ -8,7 +8,7 @@ export const sv = {
     contact: 'Kontakt',
   },
   hero: {
-    role: 'Fullstack-utvecklare · AI-kompetens',
+    role: 'Fullstack-utvecklare · Fintech · AI-kompetens',
     tagline: 'Uppgraderingen ditt team behöver.\nFullstack + AI i en och samma profil.',
     cta: 'Se mina kompetenser',
     location: 'Malmö, Sverige',
