@@ -1,7 +1,7 @@
 import { useTranslation } from 'react-i18next'
 import { motion } from 'framer-motion'
 import type { Variants } from 'framer-motion'
-import { MapPin, FileText } from 'lucide-react'
+import { FileText } from 'lucide-react'
 import { Link } from 'react-router-dom'
 import HeroChat from '../HeroChat'
 import styles from './Hero.module.css'
