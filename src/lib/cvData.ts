@@ -127,8 +127,8 @@ export const CERTIFICATIONS = [
   'Generativ AI (Level 2) – GenAI, 2025',
   'AI Fluency: Framework & Foundations – Anthropic Academy, 2026',
   'AI Capabilities and Limitations – Anthropic Academy, 2026',
-  'Claude 101 Course and Certification – Anthropic Academy, 2026',
-  'Introduction to Claude Cowork – Anthropic, 2026',
+  'Claude Code 101 – Anthropic Academy, 2026',
+  'Claude Cowork – Anthropic, 2026',
   'Building with the Claude API – Anthropic',
 ]
 

@@ -134,7 +134,7 @@ Self-started delicatessen shop in Spain. As founder, Alianne was responsible for
 ## CERTIFICATIONS
 
 - AWS Certified Cloud Practitioner (in progress)
-- Anthropic Academy: AI Fluency (Framework & Foundations), AI Capabilities and Limitations, Claude 101, Introduction to Claude Cowork, Building with the Claude API
+- Anthropic Academy: AI Fluency (Framework & Foundations), AI Capabilities and Limitations, Claude Code 101, Claude Cowork, Building with the Claude API
 - Generativ AI Level 2 (2025)
 - SnowPro Core Certification (Dec 2025, valid until Dec 2027)
 
